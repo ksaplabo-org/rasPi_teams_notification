@@ -12,3 +12,17 @@ Teams画面
 
 今回作成したNode-REDのフロー
 ![ノード](./doc/node.png)
+
+# Usage
+
+Node-REDの起動、任意のブラウザで http://<Piのアドレス>:1880 にアクセス  
+右上のハンバーガーメニューから
+
+"rasPi_teams_notification.json"
+
+を読み込んで
+「http request」ノードのURLのみ変更の必要有。  
+自分のteamsの任意のチャンネルに設定をしてください。
+
+teamsでのwebhookの設定は各自調べてもらって…。  
+「microsoft teams webhook」とかで調べると情報いっぱい出てきます。
